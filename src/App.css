@@ -1,33 +1,79 @@
+html {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  background-color: #f1f1f2 !important;
+  font-size: 16px !important;
+  font-family: "Red Hat Display", sans-serif !important;
+}
+
+.bg-image {
+  background: url("./images/bg-image-757.jpg");
+  background-position: center center;
+  height: 50vh;
+}
+
+.main-header {
+  font-family: "Beth Ellen", cursive !important;
+  font-size: 2.5rem !important;
+  color: #3a4793 !important;
+}
+
+.main-tagline {
+  color: #eb5e30 !important;
+}
+
+.posts-header {
+  color: #3a4793 !important;
+}
+
 .App {
-  text-align: center;
+  background-color: #f1f1f2 !important;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  background-color: #f1f1f2 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #25b3ec !important;
+  font-weight: bold !important;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  font-size: 1.2rem;
+  color: #25b3ec !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-primary {
+  color: #3a4793 !important;
+}
+
+.nav {
+  background: #3a4793 !important;
+}
+
+.btn {
+  background-color: #9787ee !important;
+}
+
+input {
+  color: #333 !important;
+  background-color: #f1f1f2 !important;
+}
+
+.card {
+  -webkit-box-shadow: -10px 8px 10px 0px rgba(184, 184, 184, 1);
+  -moz-box-shadow: -10px 8px 10px 0px rgba(184, 184, 184, 1);
+  box-shadow: -10px 8px 10px 0px rgba(184, 184, 184, 1);
+}
+
+.fa-trash-alt {
+  color: #3a4793;
+  font-size: 1.5rem;
 }
